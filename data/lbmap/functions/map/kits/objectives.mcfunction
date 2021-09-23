@@ -1,0 +1,1 @@
+scoreboard objectives add lbmap_pickaxe dummy

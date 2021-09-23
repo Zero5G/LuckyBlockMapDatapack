@@ -1,0 +1,1 @@
+scoreboard players remove @a lbmap_pickaxe 1
