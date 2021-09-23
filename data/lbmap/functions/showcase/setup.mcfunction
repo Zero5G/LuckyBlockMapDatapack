@@ -1,1 +1,1 @@
-scoreboard objectives add cutscenetimer-0 dummy
+scoreboard objectives add lbm_showcase dummy
