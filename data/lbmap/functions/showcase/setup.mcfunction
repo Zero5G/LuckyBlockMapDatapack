@@ -1,1 +1,1 @@
-scoreboard objectives add lbm_showcase dummy
+scoreboard objectives add lbmap_showcase dummy
