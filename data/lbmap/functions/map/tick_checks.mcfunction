@@ -8,3 +8,6 @@ execute if block 65 52 2 minecraft:polished_blackstone_button[powered=true] run 
 #######################
 # No button
 execute if block 65 52 0 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start/menu/no
+#######################
+# Pickaxe
+execute if block 93 52 21 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kits/pickaxe/buttons/next
