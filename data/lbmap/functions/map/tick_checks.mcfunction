@@ -15,3 +15,5 @@ execute if block 65 52 0 minecraft:polished_blackstone_button[powered=true] run 
 #######################
 # Pickaxe
 function lbmap:map/kits/pickaxe/pickaxes
+# Sword
+function lbmap:map/kits/sword/swords
