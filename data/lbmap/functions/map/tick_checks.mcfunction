@@ -1,5 +1,7 @@
 ## Executed by tick.mcfunction
 #######################
+# Start Menu
+#######################
 # Start button
 execute if block 65 52 1 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start
 #######################
@@ -9,5 +11,7 @@ execute if block 65 52 2 minecraft:polished_blackstone_button[powered=true] run 
 # No button
 execute if block 65 52 0 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start/menu/no
 #######################
+# Kit Menu
+#######################
 # Pickaxe
-execute if block 93 52 21 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kits/pickaxe/buttons/next
+function lbmap:map/kits/pickaxe/pickaxes
