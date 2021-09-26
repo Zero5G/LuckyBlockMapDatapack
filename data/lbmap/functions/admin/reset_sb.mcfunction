@@ -1,1 +1,1 @@
-scoreboard objectives remove lbmap_showcase
+scoreboard objectives remove lbm_showcase

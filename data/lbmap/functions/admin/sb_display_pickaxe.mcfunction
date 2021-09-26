@@ -1,1 +1,1 @@
-scoreboard objectives setdisplay sidebar lbmap_pickaxe
+scoreboard objectives setdisplay sidebar lbm_pickaxe

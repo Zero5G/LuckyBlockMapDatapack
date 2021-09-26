@@ -1,1 +1,1 @@
-scoreboard objectives setdisplay sidebar lbmap_showcase
+scoreboard objectives setdisplay sidebar lbm_showcase

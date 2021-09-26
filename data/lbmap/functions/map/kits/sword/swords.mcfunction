@@ -1,14 +1,14 @@
 # Unfinished
 ##########################
 # Score checks 
-execute as @a[scores={lbmap_sword=0}] unless entity @e[tag=lbm_sword_diamond] run function lbmap:map/kits/sword/swords/diamond
-execute as @a[scores={lbmap_sword=1}] unless entity @e[tag=lbm_sword_iron] run function lbmap:map/kits/sword/swords/iron
-execute as @a[scores={lbmap_sword=2}] unless entity @e[tag=lbm_sword_stone] run function lbmap:map/kits/sword/swords/stone
-execute as @a[scores={lbmap_sword=3}] unless entity @e[tag=lbm_sword_wooden] run function lbmap:map/kits/sword/swords/wooden
-execute as @a[scores={lbmap_sword=4}] unless entity @e[tag=lbm_sword_none] run function lbmap:map/kits/sword/swords/none
+execute as @a[scores={lbm_sword=0}] unless entity @e[tag=lbm_sword_diamond] run function lbmap:map/kits/sword/swords/diamond
+execute as @a[scores={lbm_sword=1}] unless entity @e[tag=lbm_sword_iron] run function lbmap:map/kits/sword/swords/iron
+execute as @a[scores={lbm_sword=2}] unless entity @e[tag=lbm_sword_stone] run function lbmap:map/kits/sword/swords/stone
+execute as @a[scores={lbm_sword=3}] unless entity @e[tag=lbm_sword_wooden] run function lbmap:map/kits/sword/swords/wooden
+execute as @a[scores={lbm_sword=4}] unless entity @e[tag=lbm_sword_none] run function lbmap:map/kits/sword/swords/none
 # Reset score checks
-execute as @a[scores={lbmap_sword=5..}] run scoreboard players set @a lbmap_sword 0
-execute as @a[scores={lbmap_sword=..-1}] run scoreboard players set @a lbmap_sword 4
+execute as @a[scores={lbm_sword=5..}] run scoreboard players set @a lbm_sword 0
+execute as @a[scores={lbm_sword=..-1}] run scoreboard players set @a lbm_sword 4
 ##########################
 # Button checks
 ##########################
