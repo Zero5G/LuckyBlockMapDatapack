@@ -17,6 +17,6 @@ execute if block 65 52 0 minecraft:polished_blackstone_button[powered=true] run 
 # Kit Menu
 #######################
 # Pickaxe
-function lbmap:map/kits/pickaxe/pickaxes
+function lbmap:map/kit/pickaxe/pickaxes
 # Sword
-function lbmap:map/kits/sword/swords
+function lbmap:map/kit/sword/swords
