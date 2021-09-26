@@ -1,5 +1,8 @@
 ## Executed by tick.mcfunction
 #######################
+# Fixes
+function lbmap:fixes/fix_dsp_users
+#######################
 # Start Menu
 #######################
 # Start button
