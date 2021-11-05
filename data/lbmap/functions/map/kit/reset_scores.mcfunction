@@ -1,0 +1,1 @@
+scoreboard players set @p[tag=lbm_dsp] lbm_pickaxe 0
