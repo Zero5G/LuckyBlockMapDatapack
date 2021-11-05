@@ -1,2 +1,2 @@
 scoreboard players set @s lbm_showcase 0
-tp @s 90 52 1
+tp @s 0 52 0

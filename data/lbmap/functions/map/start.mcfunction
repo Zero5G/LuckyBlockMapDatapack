@@ -1,8 +1,8 @@
-## Activated by an execute command in tick.mcfunction
+## Activated by an execute command in tick_checks.mcfunction
 say activated
 #####################################################
-# Button reset
-setblock 65 52 1 air
+# Start button reset
+setblock -25 52 0 air
 say button removed
 #####################################################
 say loading confirm menu

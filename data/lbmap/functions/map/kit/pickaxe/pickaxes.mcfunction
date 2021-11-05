@@ -1,9 +1,9 @@
 # Unfinished
 ##########################
 # Check for edit button
-execute as @p[scores={lbm_p_button=0},tag=lbm_dsp] if block 94 51 20 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/create_buttons
+execute as @p[scores={lbm_p_button=0},tag=lbm_dsp] if block 4 51 19 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/create_buttons
 # Check for done button
-execute as @p[scores={lbm_p_button=1},tag=lbm_dsp] if block 94 51 20 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/remove_buttons
+execute as @p[scores={lbm_p_button=1},tag=lbm_dsp] if block 4 51 19 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/remove_buttons
 ##########################
 # Score checks 
 execute as @a[scores={lbm_pickaxe=0},tag=lbm_dsp] unless entity @e[tag=lbm_pickaxe_diamond] run function lbmap:map/kit/pickaxe/pickaxes/diamond
@@ -16,8 +16,10 @@ execute as @a[scores={lbm_pickaxe=5..}] run scoreboard players set @a lbm_pickax
 execute as @a[scores={lbm_pickaxe=..-1}] run scoreboard players set @a lbm_pickaxe 4
 ##########################
 # Button checks
-execute if block 94 51 20 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/create_buttons
-# 
-execute if block 94 52 21 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/next
-execute if block 94 52 19 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/previous
+# Edit/Done button
+execute if block 4 51 19 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/create_buttons
+# Next
+execute if block 4 52 20 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/next
+# Previous
+execute if block 4 52 18 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/previous
 ##########################
