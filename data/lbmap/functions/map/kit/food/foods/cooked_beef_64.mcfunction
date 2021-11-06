@@ -5,6 +5,7 @@ kill @e[tag=lbm_food_apple_64]
 kill @e[tag=lbm_food_apple_32]
 kill @e[tag=lbm_food_bread_64]
 kill @e[tag=lbm_food_bread_32]
+kill @e[tag=lbm_food_none]
 ##############################
 # kill number display armorstand
 kill @e[tag=lbm_food_number]
