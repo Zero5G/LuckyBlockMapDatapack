@@ -20,3 +20,5 @@ execute if block -25 52 1 minecraft:polished_blackstone_button[powered=true] run
 function lbmap:map/kit/pickaxe/pickaxes
 # Sword
 function lbmap:map/kit/sword/swords
+# Food
+function lbmap:map/kit/food/foods
