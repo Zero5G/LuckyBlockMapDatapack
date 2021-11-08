@@ -19,3 +19,10 @@ scoreboard players set @p[tag=lbm_dsp] lbm_food 0
 scoreboard objectives remove lbm_f_button
 scoreboard objectives add lbm_f_button dummy
 #############################################
+scoreboard objectives remove lbm_armor
+scoreboard objectives add lbm_armor dummy
+scoreboard players set @p[tag=lbm_dsp] lbm_armor 0
+#############################################
+scoreboard objectives remove lbm_a_button
+scoreboard objectives add lbm_a_button dummy
+#############################################
