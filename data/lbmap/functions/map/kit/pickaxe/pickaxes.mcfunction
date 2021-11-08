@@ -1,4 +1,4 @@
-# Unfinished
+## Executed by tick_checks.mcfunction
 ##########################
 # Check for edit button
 execute as @p[scores={lbm_p_button=0},tag=lbm_dsp] if block 4 51 19 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/kit/pickaxe/buttons/create_buttons

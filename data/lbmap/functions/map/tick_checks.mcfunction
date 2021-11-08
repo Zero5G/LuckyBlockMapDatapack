@@ -21,4 +21,4 @@ function lbmap:map/kit/pickaxe/pickaxes
 # Sword
 function lbmap:map/kit/sword/swords
 # Food
-function lbmap:map/kit/food/foods
+function lbmap:map/kit/food/food_types
