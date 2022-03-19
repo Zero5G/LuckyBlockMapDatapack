@@ -4,15 +4,7 @@
 function lbmap:fixes/fix_dsp_users
 #######################
 # Start Menu
-#######################
-# Start button
-execute if block -25 52 0 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start
-#######################
-# Yes button
-execute if block -25 52 -1 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start/menu/yes
-#######################
-# No button
-execute if block -25 52 1 minecraft:polished_blackstone_button[powered=true] run function lbmap:map/start/menu/no
+function lbmap:map/start/menu_tc
 #######################
 # Kit Menu
 #######################

@@ -6,4 +6,5 @@ setblock -25 52 -1 polished_blackstone_button[facing=east]
 # Reset the menu aka runs reset_menu.mcfunction
 function lbmap:map/start/menu/reset_menu
 ################################
-say pressed yes
+# Start - execute start.mcfunction
+function lbmap:map/start/start

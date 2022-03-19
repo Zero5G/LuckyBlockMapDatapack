@@ -1,0 +1,1 @@
+give @s item_frame{display:{Name:'{"text":"Invisible/Invunerable IF","italic":false}'},CustomModelData:78945,EntityTag:{Invulnerable:1b,Invisible:1b}} 1
